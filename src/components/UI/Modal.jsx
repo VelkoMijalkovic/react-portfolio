@@ -25,7 +25,7 @@ const Modal = ({ activeID, setShowModal }) => {
                rounded-[5px] text-[14px] leading-0">{item}</span>)
             }
           </div>
-          <a href={portfolio.siteUrl} target='_blank'>
+          <a href={portfolio.siteUrl} target='_blank' rel="noreferrer">
             <button className="bg-primaryColor text-white py-2 px-4 my-8 
             rounded-[8px] font-[500] 
             hover:bg-headingColor 

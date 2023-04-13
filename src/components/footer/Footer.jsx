@@ -1,4 +1,4 @@
-import react from "react";
+
 
 const Footer = () => {
     const year = new Date().getFullYear();
@@ -19,10 +19,10 @@ const Footer = () => {
                         <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
                             <span className="text-gray-300 font-[600] text-[15px]">My Profiles:</span>
                             <span className="w=[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                                <a href="https://github.com/VelkoMijalkovic" target="_blank" rel="noreferrer" className="text-gray-300 font-[500] text-[18px]"><i class="ri-github-line"></i></a>
+                                <a href="https://github.com/VelkoMijalkovic" target="_blank" rel="noreferrer" className="text-gray-300 font-[500] text-[18px]"><i className="ri-github-line"></i></a>
                             </span>
                             <span className="w=[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                                <a href="https://www.linkedin.com/in/velko-mijalkovic/" target="_blank" rel="noreferrer" className="text-gray-300 font-[500] text-[18px]"><i class="ri-linkedin-line"></i></a>
+                                <a href="https://www.linkedin.com/in/velko-mijalkovic/" target="_blank" rel="noreferrer" className="text-gray-300 font-[500] text-[18px]"><i className="ri-linkedin-line"></i></a>
                             </span>
                         </div>
                     </div>

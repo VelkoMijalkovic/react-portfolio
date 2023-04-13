@@ -8,7 +8,7 @@ const Hero = () => {
     fetch('/path/to/your/pdf/file.pdf')
       .then(response => response.blob())
       .then(blob => {
-        const url = window.URL.createObjectURL(new Blob([blob]));
+        //const url = window.URL.createObjectURL(new Blob([blob]));
         window.open(CV, '_blank');
       });
   }
@@ -21,27 +21,25 @@ const Hero = () => {
                     <h5 data-aos='fade-right' data-aos-duration='1500' className='text-headingColor font-[600] text-[16px]'>Hello Welcome</h5>
                     <h1 data-aos="fade-up" data-aos-duration="1500" className="text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5">I'm Velko Mijalkovic <br/>Web Developer</h1>
                     <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1800" className="flex items-center gap-6 mt-7">
-                          <a>
                             <button onClick={openPDF} className="bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]">
                               <i className="ri-mail-line"></i>View CV
                             </button>
-                          </a>
                           <a href="#portfolio" className="text-smallTextColor font-[600] text-[16px] border-b border-solid border-smallTextColor">See Portfolio</a>
                           
                     </div>
                     <p data-aos="fade-left" data-aos-duration="1500" className="flex gap-2 text-headingColor font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10 mt-14">
                       <span>
-                        <i class="ri-apps-2-line"></i>
+                        <i className="ri-apps-2-line"></i>
                       </span>
                       I am a diligent individual who possesses a strategic approach to problem-solving for business solutions. As a team player, I am committed to breaking down complex problems as part of my daily duties. Currently, my professional interests lie in pursuing opportunities to enhance my knowledge and skills in all aspects of development, particularly in frontend development. I am eager to enter the field and make a meaningful contribution.
                     </p>
                     <div className="flex items-center gap-9 mt-14">
                       <span className="text-smallTextColor text-[15px] font-[600]">My profiles:</span>
                       <span>
-                        <a href="https://www.linkedin.com/in/velko-mijalkovic" target="_blank" rel="noreferrer" className="text-smallTextColor text-[18px] font-[600]"><i class="ri-linkedin-fill"></i></a>
+                        <a href="https://www.linkedin.com/in/velko-mijalkovic" target="_blank" rel="noreferrer" className="text-smallTextColor text-[18px] font-[600]"><i className="ri-linkedin-fill"></i></a>
                       </span>
                       <span>
-                        <a href="https://github.com/VelkoMijalkovic" target="_blank" rel="noreferrer" className="text-smallTextColor text-[18px] font-[600]"><i class="ri-github-fill"></i></a>
+                        <a href="https://github.com/VelkoMijalkovic" target="_blank" rel="noreferrer" className="text-smallTextColor text-[18px] font-[600]"><i className="ri-github-fill"></i></a>
                       </span>
                     </div>
                 </div>
