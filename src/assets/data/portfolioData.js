@@ -38,7 +38,7 @@ const portfolios = [
     description:
       "I have developed a complete and fully functional front-end application for a Netflix clone, featuring a log-in page, profile selection and landing page. The project leverages the TMDB APiI to import and dynamically display film data in their respective carousels. I utilized Vue.js as the primary framework, using it as a CDN to enhance the dynamic and interactive elements of the application. This project showcases my ability to integrate API data and build complex, user-friendly web applications utilizing the latest front-end technologies.",
     technologies: ["Vue.js", "API calling", "HTML", "JavaScript", "CSS"],
-    siteUrl: "https://www.velkomijalkovic.com/projects/netflixsouthafrica/#",
+    siteUrl: "https://netflixclonevelko.netlify.app/",
   },
   {
     id: "04",
@@ -79,7 +79,7 @@ const portfolios = [
     description:
       "This is the first application that I developed during my attendance at CodeSpace. It is a simple CRUD application that utilizes local browser storage to maintain data consistency. The application was created using vanilla JavaScript and HTML, accompanied by a CSS stylesheet.",
     technologies: ["CSS", "JavaScript", "HTML"],
-    siteUrl: "https://www.velkomijalkovic.com/projects/to-do-appjs/",
+    siteUrl: "https://todolistvelko.netlify.app/",
   },
   {
     id: "08",
