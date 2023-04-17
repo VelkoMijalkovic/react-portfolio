@@ -1,6 +1,22 @@
-import React from 'react'
-
+import React, {useState} from 'react'
+const formEndPoint = "https://public.herotofu.com/v1/d11abc50-dd17-11ed-9588-b37292643969";
 const Contact = () => {
+  const [submitted, setSubmitted] = useState(false);
+  const handleSubmit = () => {
+    setTimeout(() => {
+      setSubmitted(true);
+    }, 100);
+  };
+  if (submitted) {
+    return (
+    <>
+        <div className="text-2xl">Thank you!</div>
+
+      </>
+    );
+
+  }
+
   return (
     <section id="contact" className='pb-16'>
         <div className="container">
@@ -13,9 +29,9 @@ const Contact = () => {
                 <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] 
                 lg:flex items-center bg-indigo-100
                 px-4 lg:px-8 py-8">
-                  <form className="w-full">
+                  <form className="w-full"action={formEndPoint} onSubmit={handleSubmit} method="POST">
                     <div className="mb-5">
-                      <input type="text" placeholder="enter your name" className="w-full p-3 focus:outline-none rounded-[5px]" />
+                      <input type="name" placeholder="enter your name or company" className="w-full p-3 focus:outline-none rounded-[5px]" />
                     </div>
                     <div className="mb-5">
                       <input type="email" placeholder="enter your email" className="w-full p-3 focus:outline-none rounded-[5px]" />
@@ -26,7 +42,7 @@ const Contact = () => {
                     <div className="mb-5">
                       <textarea type="text" rows={3} placeholder="Write your query" className="w-full p-3 focus:outline-none rounded-[5px]" />
                     </div>
-                    <button className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-linear duration-150">Send</button>
+                    <button type="submit" className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-linear duration-150">Send</button>
                     
                   </form>
                 </div>
