@@ -11,10 +11,8 @@ const Contact = () => {
     return (
     <>
         <div className="text-2xl">Thank you!</div>
-
       </>
     );
-
   }
 
   return (
@@ -31,16 +29,16 @@ const Contact = () => {
                 px-4 lg:px-8 py-8">
                   <form className="w-full"action={formEndPoint} onSubmit={handleSubmit} method="POST">
                     <div className="mb-5">
-                      <input type="name" placeholder="enter your name or company" className="w-full p-3 focus:outline-none rounded-[5px]" />
+                      <input name="name" type="text" placeholder="enter your name or company" className="w-full p-3 focus:outline-none rounded-[5px]" />
                     </div>
                     <div className="mb-5">
-                      <input type="email" placeholder="enter your email" className="w-full p-3 focus:outline-none rounded-[5px]" />
+                      <input name="email" type="email" placeholder="enter your email" className="w-full p-3 focus:outline-none rounded-[5px]" />
                     </div>
                     <div className="mb-5">
-                      <input type="text" placeholder="subject" className="w-full p-3 focus:outline-none rounded-[5px]" />
+                      <input name="subject" type="text" placeholder="subject" className="w-full p-3 focus:outline-none rounded-[5px]" />
                     </div>
                     <div className="mb-5">
-                      <textarea type="text" rows={3} placeholder="Write your query" className="w-full p-3 focus:outline-none rounded-[5px]" />
+                      <textarea name="text" type="text" rows={3} placeholder="Write your query" className="w-full p-3 focus:outline-none rounded-[5px]" />
                     </div>
                     <button type="submit" className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-linear duration-150">Send</button>
                     
