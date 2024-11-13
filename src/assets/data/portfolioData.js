@@ -8,6 +8,9 @@ import portfolioImg07 from "../images/portfolio-07.jpg";
 import portfolioImg08 from "../images/portfolio-08.jpg";
 import portfolioImg09 from "../images/portfolio-09.jpg";
 import portfolioImg10 from "../images/portfolio-10.jpg";
+import portfolioImg11 from "../images/portfolio-11.jpg";
+import portfolioImg12 from "../images/portfolio-12.jpg";
+import portfolioImg13 from "../images/portfolio-13.jpg";
 
 const portfolios = [
   {
@@ -24,11 +27,11 @@ const portfolios = [
     id: "02",
     imgUrl: portfolioImg04,
     category: "Web Design",
-    title: "Tarot Reader Website",
+    title: "Pick n Pay Eswatini",
     description:
-      "I created a comprehensive website for a tarot reader who provides readings on YouTube. The website was developed on a freelance basis and was built using the WordPress platform, along with the Elementor and WooCommerce plugins. The website is equipped with a payment system for private tarot readings, and I authored the articles on the website, conducting research on relevant keywords and optimizing the content for search engine optimization.",
-    technologies: ["Wordpress", "Woocommerce", "Elementor"],
-    siteUrl: "https://allbym.shop/",
+      "Webiste for pick 'n Pay Eswatini",
+    technologies: ["Wordpress", "Woocommerce", "Elementor", "ACF"],
+    siteUrl: "https://picknpayeswatini.com/",
   },
   {
     id: "03",
@@ -65,21 +68,21 @@ const portfolios = [
     id: "06",
     imgUrl: portfolioImg06,
     category: "Web Design",
-    title: "Pearr Recruitment Website",
+    title: "Planet Fitness",
     description:
-      "A custom wordpress solution for Pearr Recruitment utilizing various plugins and PHP hooks. The solution enables users to create secure recruitment profiles with their personal information, which is then sent to the backend database for processing. This allows users to apply for job opportunities posted by the company and grants admin users access to view applicant information and profiles via the admin portal. If you would like to preview the sites registration capabilities.",
-    technologies: ["Wordpress", "Elementor", "PHP"],
-    siteUrl: "https://testpearr.nichelectronics.co.za/wp/",
+      "Planet Fitness Website",
+    technologies: ["Wordpress", "Elementor", "PHP", "API Calling", "ACF"],
+    siteUrl: "https://www.planetfitness.co.za",
   },
   {
     id: "07",
     imgUrl: portfolioImg07,
     category: "Ux",
-    title: "Basic Todo List Application",
+    title: "President Hyper",
     description:
-      "This is the first application that I developed during my attendance at CodeSpace. It is a simple CRUD application that utilizes local browser storage to maintain data consistency. The application was created using vanilla JavaScript and HTML, accompanied by a CSS stylesheet.",
-    technologies: ["CSS", "JavaScript", "HTML"],
-    siteUrl: "https://todolistvelko.netlify.app/",
+      "President Hyper Website",
+    technologies: ["Wordpress", "Elementor", "PHP", "API Calling", "ACF"],
+    siteUrl: "https://www.presidenthyper.co.za",
   },
   {
     id: "08",
@@ -95,11 +98,11 @@ const portfolios = [
     id: "09",
     imgUrl: portfolioImg09,
     category: "Ux",
-    title: "WIP: Esports Simulation PC Game",
+    title: "Sofnfree Website",
     description:
-      "My brother and I undertook a massive project to build a desktop game application using Electron.js for the desktop application and React.js for the frontend. Our vision was a text-based game, and we laid the groundwork during our free time. For the backend, we used Express.js with SQLite as the database engine, creating databases dynamically and populating them with data for our equations and calculations. We focused on developing a robust and engaging game that would captivate our users' attention while delivering a seamless user experience.",
-    technologies: ["React.js", "Electron.js", "SQLite", "Express.js"],
-    siteUrl: "https://github.com/VelkoMijalkovic/esportsFE",
+      "Sofnfree Website",
+    technologies: ["Wordpress", "Elementor", "PHP", "API Calling", "ACF"],
+    siteUrl: "https://www.sofnfree.com",
   },
   {
     id: "10",
@@ -110,7 +113,38 @@ const portfolios = [
       "During my internship at Wired Web Services, I was responsible for designing and developing the user interface (UI) for the Brainjar website, which was built on the WordPress platform using Elementor. My work involved creating a visually appealing design, ensuring a seamless user experience, and optimizing the website's performance for faster load times.",
     technologies: ["Elementor", "Wordpress"],
     siteUrl: "https://brainjarskillsdev.co.za/",
+  },
+  {
+    id: "11",
+    imgUrl: portfolioImg11,
+    category: "Web Design",
+    title: "Mobicel Website",
+    description:
+      "Mobicel Website",
+    technologies: ["Elementor", "Wordpress"],
+    siteUrl: "https://mobicel.co.za",
+  },
+  {
+    id: "12",
+    imgUrl: portfolioImg12,
+    category: "Web Design",
+    title: "Sea Cargo Website",
+    description:
+      "Sea Cargo Website",
+    technologies: ["Elementor", "Wordpress"],
+    siteUrl: "https://seacargoza.com/",
+  },
+  {
+    id: "13",
+    imgUrl: portfolioImg13,
+    category: "Web Design",
+    title: "Sofnfree AR application",
+    description:
+      "A Deepar augmented reality application which changes your hair according to selection, allows the user to take a picture with a Sofnfree border then a QR code is presented for the user to download the image, was featured at the Clicks Playground 2024",
+    technologies: ["DeepAR", "Node", "Javascript", "AWS"],
+    siteUrl: "#",
   }
+  
 ];
 
 export default portfolios;
